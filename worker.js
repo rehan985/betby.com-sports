@@ -22,7 +22,7 @@ const upstream_allow_override = false;
 const upstream_get_parameter = 'CORSflare_upstream';
 
 // An array of countries and regions that won't be able to use the proxy.
-const blocked_regions = ['CN', 'KP', 'SY', 'PK', 'CU'];
+const blocked_regions = ['CN', 'KP', 'SY', 'CU'];
 
 // An array of IP addresses that won't be able to use the proxy.
 const blocked_ip_addresses = ['0.0.0.0', '127.0.0.1'];
